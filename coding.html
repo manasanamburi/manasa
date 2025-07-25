@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML Form</title>
+    </head>
+    <body>
+    
+        <h1>LADIES CORNER</h1>
+        <br>
+        <font face="Brush Script MT" color="Tale" size="5" >
+        <u><h2>Buy Beautiful Dresses!!!</h2></u>
+        </font>
+        <br>
+        <form method="post">
+            <b>First Name :</b> <input type="text" name="FirstName" placeholder="First Name" size="50" maxlength="20">
+            <br>
+            <b>Last Name : </b> <input type="text" name="SecondName" placeholder= "Pretext" size="50" maxlength="20">
+            <br><br>
+            <b> Type of dress : </b>
+            <select name="Shirt type" size= "1" multiple > 
+                <!--by pressing ctrl button for multiple option selection-->
+                <option>cold shoulder</option>
+                <option>half floral</option>
+                <option>Round Neck</option>
+                <option>crop top</option>
+                <option>Crew T-Shirt</option>
+                <option>kurthi</option>
+                <option>Hoodies</option>
+            </select>
+            <br><br>
+            <b> Size : </b> <!-- this size is the thing which appears as the side heading or section -->
+            <input type="radio" name="size" value="small"><b>small</b> <!-- name is not the thing that will appear on page -->
+            <input type="radio" name="size" value="medium"><b>medium</b>
+            <input type="radio" name="size" value="large"><b>large</b>
+            <br>
+            <b> Color : </b>
+            <input type="checkbox" name="Color" value="Black"><b>Black</b>
+            <input type="checkbox" name="Color" value="Red"><b>Red</b>
+            <input type="checkbox" name="Color" value="White"><b>White</b>
+             <br><br>
+             <b>Comments!!</b>
+             <br>
+             <textarea name="comments" rows="5" cols="50" placeholder="Your comments"></textarea>
+             <br><br>
+             <input type ="submit" name ="submit" value="Place my order" >
+             <!-- by default the submit will be appeared on submit button if value is not assigned -->
+             <input type ="reset"  name ="reset">
+             <br><br>
+             <!-- another way to use rest and submit options-->
+              <button type="reset" >Reset </button>
+              <button type="submit">Submit</button>
+              <br><br>
+              <!--
+             <b>User Name : </b>
+             <input type="text" name="username"> <br>
+             <b>Password : </b>
+             <input type="text" name="password"> <br>
+             <button type="submit">Login</button>-->
+        </form>
+    </body>
+</html>
